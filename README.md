@@ -15,17 +15,17 @@ Each script integrates a state-of-the-art symbolic regression framework with:
 
 ## Repository Contents
 
-- **computational formulation.py**  
+- **computational Formulation.py**  
   Contains the core, advanced implementation. This script demonstrates the full pipeline—from generating simulated data to evolving candidate expressions using GP with reinforcement learning and dimensional consistency checks. It serves as the foundation for the methods used in the other scripts.
 
-- **autonomous derivation of e = mc@.py**  
+- **Autonomous AI Derivation of E = mc2.py**  
   Implements a genetic programming approach to rediscover Einstein's mass–energy equivalence (E = m c²) using simulated data. It includes:
   - Random mass data generation and corresponding energy values (with Gaussian noise)
   - A primitive set of basic mathematical operations (including protected division and power)
   - A fitness function that combines data fidelity and a penalty for dimensional inconsistency
   - Evolutionary operators (selection, crossover, and mutation) to evolve candidate expressions
 
-- **derivation of the shrodingers eq.py**  
+- **Derivation of Schrodinger’s Equation from First Principles.py**  
   Applies GP to autonomously derive the structure of the time-independent Schrödinger equation from simulated quantum data. This script:
   - Generates synthetic datasets for two scenarios: a free particle (V(x)=0) and a harmonic oscillator (V(x)=½ k x²)
   - Constructs a primitive set that includes the wavefunction (Ψ) and its derivatives (dΨ/dx, d²Ψ/dx²)
